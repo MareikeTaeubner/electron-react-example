@@ -1,0 +1,25 @@
+{
+  "name": "electron-react-example",
+  "version": "1.0.0",
+  "description": "example how to integrate an react app in electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-gui": "cd gui && npm start",
+    "build": "cd gui && npm run build && cd .. && electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MareikeTaeubner/electron-react-example.git"
+  },
+  "author": "Mareike Fichtelmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MareikeTaeubner/electron-react-example/issues"
+  },
+  "homepage": "https://github.com/MareikeTaeubner/electron-react-example#readme",
+  "devDependencies": {
+    "electron": "^8.0.0",
+    "electron-builder": "^22.3.2"
+  }
+}
